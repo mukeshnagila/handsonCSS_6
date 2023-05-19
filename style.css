@@ -1,0 +1,132 @@
+*{
+    margin: auto;
+    padding: 0%;
+}
+.body1st{
+    background-color: yellow;
+    height: 700px;
+    text-align: center;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin: 25px;
+    animation: first1 1.5s infinite alternate;
+}
+
+@keyframes first1{
+    0%{transform: skew(30deg);}
+    100%{transform: skew(-30deg);}
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(118, 121, 153);
+    display: inline-block;
+    margin: 25px;
+    animation: first2 2.5s infinite alternate;
+}
+
+@keyframes first2{
+    0%{transform: skewy(30deg);}
+    100%{transform: skewy(-30deg);}
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin: 25px;
+    animation: first3 2.5s infinite normal;
+}
+
+@keyframes first3{
+    0%{transform: rotate(10deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.box3_1{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 25px;
+    animation: first4 3s infinite alternate;
+}
+
+@keyframes first4{
+    0%{transform: scale(1,1);}
+    100%{transform: scale(1,0.5);}
+}
+
+.box3_2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 26, 26);
+    display: inline-block;
+    border: 1px solid black;
+    margin: 25px;
+    animation: first5 3s infinite alternate;
+}
+
+@keyframes first5{
+    0%{transform: scale(1,1);}
+    100%{transform: scale(0.5,1);}
+}
+
+.box3_3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(57, 154, 57);
+    display: inline-block;
+    border: 1px solid black;
+    margin: 25px;
+    animation: first6 2s infinite alternate-reverse;
+}
+
+@keyframes first6{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(90deg);}
+}
+
+ol{
+    display: inline-block;
+}
+
+
+/* #####################-- INDEX 2 --################################ */
+/* #####################-- INDEX 2 --################################ */
+/* #####################-- INDEX 2 --################################ */
+
+.item1{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(65, 172, 65);
+    transition: width 3s;
+}
+
+#item1:hover{
+    width: 400px;
+    transition-timing-function: ease;
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: rgb(65, 172, 65);
+    transition: width 3s, height 3s;
+}
+
+#item2:hover{
+    width: 300px;
+    height: 300px;
+    transition-timing-function: ease-in-out;
+}
