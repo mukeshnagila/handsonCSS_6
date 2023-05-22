@@ -221,10 +221,10 @@ ol{
 }
 
 .car{
-   background-image: url('./car.png');
+   background-image: url('./car12-removebg-preview.png');
    background-size: contain;
    background-repeat: no-repeat;
-   width: 400px;
+   width: 530px;
    height: 200px;
    position: relative;
     top: 350px;
@@ -254,7 +254,7 @@ ol{
     position: absolute;
     animation: wheel 1s infinite linear;
     top: 477px;
-    left: 556px;
+    left: 539px;
 }
 
 @keyframes wheel{
@@ -274,7 +274,7 @@ ol{
     position: absolute;
     animation: wheel 1s infinite linear;
     top: 477px;
-    left: 802px;
+    left: 800px;
 }
 
 @keyframes wheel{
