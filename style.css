@@ -130,3 +130,167 @@ ol{
     height: 300px;
     transition-timing-function: ease-in-out;
 }
+
+
+/* #####################-- INDEX 3 --################################ */
+/* #####################-- INDEX 3 --################################ */
+/* #####################-- INDEX 3 --################################ */
+
+.body3{
+    margin: 0%;
+    border: 10px solid;
+    border-color: white green white orangered;;
+}
+
+.sky{
+    background-image: url('./sky.jpg');
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden
+}
+
+.india{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 580px;
+}
+
+.H{
+    background-color: rgb(210, 86, 19);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.I{
+    background-color: rgb(249, 249, 249);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.D{
+    background-color: rgb(5, 71, 5);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.road{
+    background-image: url('./road.jpg');
+    width: 500%;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    animation: moveroad 10s infinite linear;
+}
+
+@keyframes moveroad{
+    100%{
+        transform: translateX(-4000px)
+    }
+}
+
+.city{
+    background-image: url('./city.png');
+    width: 500%;
+    height: 250px;
+    position: absolute;
+    bottom: 35%;
+    animation: movecity 15s infinite linear;
+}
+
+@keyframes movecity{
+    100%{
+        transform: translateX(-4000px);
+    }
+}
+
+.sun{
+    background-image: url('./sun-removebg-preview.png');
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    left: 80%;
+    animation: movesun 50s infinite normal;
+}
+
+@keyframes movesun{
+    100%{
+        transform: translateX(-200px);
+    }
+}
+
+.car{
+   background-image: url('./car.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 400px;
+   height: 200px;
+   position: relative;
+    top: 350px;
+    z-index: 2;
+    animation: carmove 5s infinite linear;
+}
+
+@keyframes carmove{
+    0%{
+        transform: translatey(1px);
+    }
+    50%{
+        transform: translatey(-5px);
+    }
+    100%{
+        transform: translatey(1px);
+    }
+}
+
+.wheel1{
+    background-image: url('./wheel.png');
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    animation: wheel 1s infinite linear;
+    top: 477px;
+    left: 556px;
+}
+
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+.wheel2{
+    background-image: url('./wheel\ \(1\).png');
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    animation: wheel 1s infinite linear;
+    top: 477px;
+    left: 802px;
+}
+
+@keyframes wheel{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.flag{
+    background-image: url('./Tiranga1.svg');
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    position: absolute;
+    top: 405px;
+    left: 850px;
+}
