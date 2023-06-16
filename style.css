@@ -254,7 +254,7 @@ ol{
     position: absolute;
     animation: wheel 1s infinite linear;
     top: 477px;
-    left: 558px;
+    left: 565px;
 }
 
 @keyframes wheel{
@@ -274,7 +274,7 @@ ol{
     position: absolute;
     animation: wheel 1s infinite linear;
     top: 477px;
-    left: 820px;
+    left: 827px;
 }
 
 @keyframes wheel{
